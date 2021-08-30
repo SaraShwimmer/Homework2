@@ -121,7 +121,6 @@ int main() {
 	else {
 		cout << "Student found!";
 	}
-
 	return 0;
 }
 
