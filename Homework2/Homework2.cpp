@@ -29,8 +29,8 @@ public:
 	Person(string* name, int age = 0, sex gender = sex::man, double weight = 0)
 		: m_name(name), m_age(age), m_gender(gender), m_weight(weight) {}
 
-	void setName(string* name) {
-		m_name = name;
+	void setName(const string* name) {
+		name = m_name;
 	};
 	void setAge(int age) {
 		m_age = age;
